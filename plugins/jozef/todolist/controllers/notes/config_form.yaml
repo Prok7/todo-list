@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Note
+
+# Model Form Field configuration
+form: $/jozef/todolist/models/note/fields.yaml
+
+# Model Class name
+modelClass: Jozef\TodoList\Models\Note
+
+# Default redirect location
+defaultRedirect: jozef/todolist/notes
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: jozef/todolist/notes/update/:id
+    redirectClose: jozef/todolist/notes
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: jozef/todolist/notes
+    redirectClose: jozef/todolist/notes
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

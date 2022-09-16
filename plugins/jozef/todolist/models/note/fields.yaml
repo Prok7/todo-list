@@ -1,0 +1,21 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    user_id:
+        label: User Id
+        type: number
+        span: left
+    delete:
+        span: right
+        label: Delete
+        type: dropdown
+        options: 
+            "true": "true"
+            "false": "false"
+    text:
+        label: Text

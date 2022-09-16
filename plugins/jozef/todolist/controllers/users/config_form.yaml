@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: User
+
+# Model Form Field configuration
+form: $/jozef/todolist/models/user/fields.yaml
+
+# Model Class name
+modelClass: Jozef\TodoList\Models\User
+
+# Default redirect location
+defaultRedirect: jozef/todolist/users
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: jozef/todolist/users/update/:id
+    redirectClose: jozef/todolist/users
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: jozef/todolist/users
+    redirectClose: jozef/todolist/users
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
