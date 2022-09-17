@@ -12,5 +12,5 @@ columns:
     text:
         label: Text
         searchable: true
-    delete:
-        label: Delete
+    done:
+        label: Done

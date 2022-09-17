@@ -13,7 +13,7 @@ class CreateNotesTable extends Migration
             $table->increments('id');
             $table->integer("user_id");
             $table->string("text");
-            $table->boolean("delete")->default("true");
+            $table->boolean("done")->default("false");
             $table->timestamps();
         });
     }

@@ -10,12 +10,12 @@ fields:
         label: User Id
         type: number
         span: left
-    delete:
+    done:
         span: right
-        label: Delete
+        label: Done
         type: dropdown
         options: 
-            "true": "true"
             "false": "false"
+            "true": "true"
     text:
         label: Text
