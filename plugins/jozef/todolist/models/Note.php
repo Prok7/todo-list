@@ -22,7 +22,7 @@ class Note extends Model
     /**
      * @var array Fillable fields
      */
-    protected $fillable = [];
+    protected $fillable = ["text", "done"];
 
     /**
      * @var array Validation rules for attributes

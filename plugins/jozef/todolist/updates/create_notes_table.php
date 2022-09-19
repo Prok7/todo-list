@@ -11,7 +11,7 @@ class CreateNotesTable extends Migration
         Schema::create('jozef_todolist_notes', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->integer("user_id");
+            $table->integer("user_id")->index();
             $table->string("text");
             $table->boolean("done")->default("false");
             $table->timestamps();
